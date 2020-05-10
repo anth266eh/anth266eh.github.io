@@ -220,7 +220,7 @@ p {
 }
 
 .banner {
-  background-image: url(../img/banner-bg.jpg);
+  background-image: url(../img/quiraing_scotland.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -241,7 +241,7 @@ p {
 }
 
 .banner-content h2 {
-  font-size: 80px;
+  font-size: 50px;
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
@@ -296,6 +296,22 @@ p {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+}
+
+#about .entry {
+  background-color: rgba(54, 62, 80, 0.75);
+  margin: 0px -15px;
+  padding: 120px 45px;
+}
+
+#about .text-side {
+  text-align: center;
+  color: #fff;
+  
+}
+
+#about .pic-side {
+
 }
 
 #about .service-item {
