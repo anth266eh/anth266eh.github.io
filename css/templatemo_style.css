@@ -316,8 +316,8 @@ p {
   
 }
 
-#about .pic-side {
-
+#about .pic-side img{
+  border: solid 3px white;
 }
 
 #about .service-item {
