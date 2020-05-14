@@ -224,11 +224,13 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  
 }
+
 
 .banner-content {
   text-align: center;
-  padding: 280px 0px 200px 0px;
+  padding: 40vh 0px 20px 0px;
 }
 
 .banner-content h6 {
@@ -261,6 +263,33 @@ p {
   margin: 10px;
 }
 
+.lecture-list {
+  padding-bottom: 40vh;
+}
+
+.lecture-list h4 {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.lecture-list ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.lecture-list ul li {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
 
 .intro {
   background-color: #46bae2;
@@ -308,6 +337,43 @@ p {
   margin: 0px -15px;
   padding: 30px 0px;
 }
+
+#about .entry a{
+  color: aqua;
+}
+
+#about .entry a:hover{
+  color: cornflowerblue;
+}
+
+#about .works-cited {
+  background-color: rgba(54, 62, 80, 0.55);
+  font-size: 2vw;
+  color: #fff;
+}
+
+#about .works-cited ul li{
+  padding-bottom: 15px;
+}
+
+#about .works-cited a {
+  display:inline-block;
+  margin-left: 5em;
+  color:white;
+  font-size: 2vw;
+}
+
+#about .works-cited a:hover {
+  color:cornflowerblue;
+}
+
+#about .works-cited h4 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 3vw;
+}
+
 
 #about .text-side p {
   text-align: justify;
